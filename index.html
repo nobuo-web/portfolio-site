@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOBOU. | 未来を変えるために、今、動く。</title>
+  <meta name="description" content="のぼうの個人ポートフォリオ。YouTube、SNS、AI、Web制作。将来の目標に向かって、学び、挑戦し、形にする。">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:title" content="NOBOU. | 未来を変えるために、今、動く。">
+  <meta property="og:description" content="YouTube、SNS、AI、Web制作。将来の目標に向かって、学び、挑戦し、形にする。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/icon.png">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    // JS が動かない場合でもコンテンツが隠れたままにならないようにする
+    document.documentElement.classList.add("js");
+    setTimeout(function () { if (!window.__revealReady) document.documentElement.classList.remove("js"); }, 2500);
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <a class="logo" href="#top" aria-label="NOBOU. トップへ戻る" translate="no">NOBOU<span class="logo__dot">.</span></a>
+
+      <nav class="nav" id="nav" aria-label="メインナビゲーション">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#about">ABOUT</a></li>
+          <li><a class="nav__link" href="#activity">ACTIVITY</a></li>
+          <li><a class="nav__link" href="#works">WORKS</a></li>
+          <li><a class="nav__link" href="#journey">JOURNEY</a></li>
+          <li><a class="nav__link" href="#contact">CONTACT</a></li>
+        </ul>
+        <a class="nav__x" href="https://x.com/hototogiszimusy" data-x-link target="_blank" rel="noopener noreferrer">
+          Xでつながる <span aria-hidden="true">↗</span><span class="visually-hidden">（新しいタブで開きます）</span>
+        </a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="メニューを開く">
+        <span class="menu-btn__bar"></span>
+        <span class="menu-btn__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__dawn" aria-hidden="true"></div>
+
+      <div class="hero__inner container">
+        <h1 class="hero__title" id="hero-title">
+          <span class="hero__line">未来を変えるために<span class="vp">、</span></span><span class="hero__line">今<span class="vp">、</span>動く<span class="vp">。</span></span>
+        </h1>
+
+        <div class="hero__body">
+          <p class="hero__lead">YouTube、SNS、AI、Web制作。<br>将来の目標に向かって、<br class="pc-hide">学び、挑戦し、形にする。</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#journey">挑戦の記録を見る</a>
+            <a class="btn btn--ghost" href="#about">自己紹介</a>
+          </div>
+          <a class="hero__x" href="https://x.com/hototogiszimusy" data-x-link target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M17.75 3h3.07l-6.71 7.67L22 21h-6.18l-4.84-6.33L5.44 21H2.37l7.18-8.2L2 3h6.33l4.38 5.79L17.75 3Zm-1.08 16.18h1.7L7.4 4.73H5.58l11.09 14.45Z"/></svg>
+            <span data-x-handle>@hototogiszimusy</span>
+            <span class="visually-hidden">（Xプロフィールを新しいタブで開きます）</span>
+          </a>
+        </div>
+      </div>
+
+      <p class="hero__logo" aria-hidden="true" translate="no">NOBOU<span>.</span></p>
+
+      <a class="scroll-cue" href="#about" aria-label="自己紹介へスクロール"><span class="scroll-cue__line" aria-hidden="true"></span></a>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="section-head__name">About</p>
+          <h2 class="section-title" id="about-title">まだ完成していない。<br>だから、挑戦する。</h2>
+        </header>
+
+        <div class="about">
+          <div class="about__profile" data-reveal>
+            <div class="avatar" id="avatar">
+              <span class="avatar__mark" aria-hidden="true">N<span>.</span></span>
+            </div>
+            <dl class="about__meta">
+              <div><dt>名前</dt><dd data-profile="name">のぼう</dd></div>
+              <div data-age-row><dt>年齢</dt><dd data-profile="age">15歳</dd></div>
+              <div><dt>分野</dt><dd>YouTube / SNS / AI / Web</dd></div>
+            </dl>
+          </div>
+
+          <div class="about__content">
+            <div class="about__bio" id="aboutBio" data-reveal></div>
+            <ul class="about__points" id="aboutPoints" data-reveal></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ACTIVITY ================= -->
+    <section class="section section--night" id="activity" aria-labelledby="activity-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="section-head__name">Activity</p>
+          <div>
+            <h2 class="section-title" id="activity-title">挑戦している、<br class="pc-hide">8つのこと。</h2>
+            <p class="section-lead">発信、制作、仕組みづくり、そして学習。いま取り組んでいる活動と、これから深めていきたい分野です。</p>
+          </div>
+        </header>
+        <ul class="acts" id="activityGrid" data-reveal></ul>
+      </div>
+    </section>
+
+    <!-- ================= WORKS ================= -->
+    <section class="section" id="works" aria-labelledby="works-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="section-head__name">Works</p>
+          <div>
+            <h2 class="section-title" id="works-title">つくっているもの。</h2>
+            <p class="section-lead">取り組んでいる制作のテーマです。作品や詳細は、形になったものから順に追加していきます。</p>
+          </div>
+        </header>
+        <ul class="stats" id="worksStats" aria-label="実績" data-reveal></ul>
+        <ul class="works" id="worksGrid" data-reveal></ul>
+      </div>
+    </section>
+
+    <!-- ================= JOURNEY ================= -->
+    <section class="section section--night" id="journey" aria-labelledby="journey-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="section-head__name">Journey</p>
+          <div>
+            <h2 class="section-title" id="journey-title">一歩ずつの、記録。</h2>
+            <p class="section-lead">数字ではなく、挑戦と学びの積み重ねを。この記録は、これからも書き足していきます。</p>
+          </div>
+        </header>
+        <ol class="timeline" id="journeyList"></ol>
+      </div>
+    </section>
+
+    <!-- ================= PHILOSOPHY ================= -->
+    <section class="section" id="philosophy" aria-labelledby="philosophy-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="section-head__name">Philosophy</p>
+          <h2 class="section-title" id="philosophy-title">成長の途中にいることを、<br>隠さない。</h2>
+        </header>
+
+        <ul class="values" data-reveal>
+          <li class="value">
+            <h3 class="value__title">目標から逆算して、動く。</h3>
+            <p class="value__text">「いつか」ではなく、目指す場所から逆算して、今日やることを決める。</p>
+          </li>
+          <li class="value">
+            <h3 class="value__title">学ぶだけで、終わらせない。</h3>
+            <p class="value__text">知識は使ってこそ意味がある。学んだら、まず実際に作ってみる。</p>
+          </li>
+          <li class="value">
+            <h3 class="value__title">小さな挑戦を、積み重ねる。</h3>
+            <p class="value__text">大きな一歩より、続けられる一歩を。その積み重ねが、やがて大きな変化になる。</p>
+          </li>
+          <li class="value">
+            <h3 class="value__title">過程からも、学ぶ。</h3>
+            <p class="value__text">うまくいかなかったことも、次への材料になる。結果だけでなく、過程から学び続ける。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact" data-reveal>
+          <div class="contact__dawn" aria-hidden="true"></div>
+          <h2 class="contact__title" id="contact-title">挑戦の続きは、<br>Xで発信中。</h2>
+          <p class="contact__lead">日々の活動や学びを発信しています。気軽にフォロー・メッセージしてください。</p>
+          <a class="btn btn--primary btn--lg" href="https://x.com/hototogiszimusy" data-x-link target="_blank" rel="noopener noreferrer">
+            <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M17.75 3h3.07l-6.71 7.67L22 21h-6.18l-4.84-6.33L5.44 21H2.37l7.18-8.2L2 3h6.33l4.38 5.79L17.75 3Zm-1.08 16.18h1.7L7.4 4.73H5.58l11.09 14.45Z"/></svg>
+            Xでつながる ↗<span class="visually-hidden">（新しいタブで開きます）</span>
+          </a>
+          <p class="contact__handle" data-x-handle>@hototogiszimusy</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer__inner container">
+      <div class="footer__brand">
+        <a class="logo logo--lg" href="#top" translate="no">NOBOU<span class="logo__dot">.</span></a>
+        <p class="footer__message">Building my future, one step at a time.</p>
+      </div>
+      <div class="footer__side">
+        <a class="footer__x" href="https://x.com/hototogiszimusy" data-x-link target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M17.75 3h3.07l-6.71 7.67L22 21h-6.18l-4.84-6.33L5.44 21H2.37l7.18-8.2L2 3h6.33l4.38 5.79L17.75 3Zm-1.08 16.18h1.7L7.4 4.73H5.58l11.09 14.45Z"/></svg>
+          <span data-x-handle>@hototogiszimusy</span>
+          <span class="visually-hidden">（新しいタブで開きます）</span>
+        </a>
+        <p class="footer__copy">&copy; <span id="year">2026</span> NOBOU. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
