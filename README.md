@@ -87,3 +87,19 @@ portfolio-site/
 - 色を変える場合は `css/style.css` 先頭の `--blue` などを変更してください。
 - フォント（Google Fonts）が読み込めなくても、OS 標準フォントで崩れずに表示されます。
 - OS の「視差効果を減らす」設定がオンの場合、アニメーションは自動で無効になります。
+
+## 公開と更新
+
+- 公開URL: https://nobuo-web.github.io/portfolio-site/
+- GitHub Pages（`main` ブランチのルート）で公開しています。
+
+内容を変更したら、次のコマンドで公開サイトに反映されます（1〜2分かかります）。
+
+```bash
+cd portfolio-site
+git add -A
+git commit -m "変更内容のメモ"
+git push
+```
+
+コミットの作者情報は、このフォルダだけ GitHub の非公開アドレス（`…@users.noreply.github.com`）に設定しています。
